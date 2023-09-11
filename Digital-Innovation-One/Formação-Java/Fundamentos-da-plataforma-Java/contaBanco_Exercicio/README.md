@@ -3,7 +3,7 @@ Claro, vou ajudá-lo a deixar o Markdown mais atraente e bonito. Aqui está o te
 ## Desafio Proposto
 
 1. Criar o projeto `contaBanco` que receberá dados via terminal contendo as características de conta em banco conforme atributos abaixo.
-2. Dentro do projeto, crie a classe [ContaTerminal.java](http://ContaTerminal.java) para realizar toda a codificação do nosso programa.
+2. Dentro do projeto, crie a classe [ContaTerminal.java] para realizar toda a codificação do nosso programa.
 
 ### Regras de Declaração de Variáveis
 
