@@ -2,27 +2,24 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-		Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
-		sans-serif;
-	color: #d9d9d9;
-	line-height: 160%;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	color: #ffffff;
 	text-align: center;
-	overflow: hidden;
 }
 
 a {
 	text-decoration: none;
-	color: #81c5af;
-	background: #181b1f;
-	padding: 4px 12px;
-	border-radius: 2.5px;
+	color: #0366d6;
+	background: transparent;
+	padding: 8px 16px;
+	border-radius: 25px;
 	transition: 0.3s ease-in-out;
-	border: none;
+	border: 2px solid #0366d6;
 }
 
 a:hover {
-	background: #364643;
+	background: #0366d6;
+	color: #ffffff;
 }
 
 body {
@@ -30,14 +27,15 @@ body {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	background: rgb(26, 32, 31);
+	background: #0d1117; /* Fundo escuro estilo GitHub Dark */
 	height: 100vh;
+	margin: 0;
 }
 
 #header {
-	background: #0b0c0e;
+	background: #161b22; /* Cor de fundo semelhante ao GitHub Dark */
 	width: 100%;
-	padding: 25px;
+	padding: 25px 0;
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
@@ -45,7 +43,7 @@ body {
 
 #links {
 	display: flex;
-	gap: 15px;
+	gap: 20px;
 }
 
 #main-content {
@@ -55,33 +53,44 @@ body {
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	background-color: #181b1f;
-	padding: 20rem;
+	background-color: #0d1117; /* Fundo escuro estilo GitHub Dark */
+	padding: 4rem;
 	z-index: -1;
 	gap: 25px;
 }
 
 #card {
-	background-color: #0b0c0e;
+	background-color: #161b22; /* Cor de fundo semelhante ao GitHub Dark */
 	height: 250px;
 	width: 200px;
-	border-radius: 10px;
-	padding: 10px;
+	border-radius: 15px;
+	padding: 16px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra semelhante ao GitHub */
+	transition: 0.3s ease-in-out;
 }
 
 #card p {
+	font-size: 18px;
+}
+
+#card:hover {
+	transform: scale(
+		1.05
+	); /* Efeito de escala ao passar o mouse semelhante ao GitHub */
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra aumentada ao passar o mouse semelhante ao GitHub */
 }
 
 #about {
 	position: absolute;
 	top: 50%;
+	transform: translateY(-50%);
 	padding-inline: 12rem;
 }
 
 p {
-	font-size: 18px;
+	font-size: 20px;
 	z-index: 10;
 }
