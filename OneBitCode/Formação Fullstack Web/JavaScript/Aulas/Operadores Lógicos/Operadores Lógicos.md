@@ -7,6 +7,7 @@
         -   `true && false === false`
         -   `false && true === false`
         -   `false && false === false`
+---
 -   OR (ou)
     -   Só é falso **se ambas as partes forem falsas**.
     -   operador `||`
@@ -14,4 +15,9 @@
         -   `true || false === true`
         -   `false || true === true`
         -   `false || false === false`
+---
 -   NOT (não)
+    -   **Inverte o resultado** (de verdadeiro para falso e vice-versa).
+    -   operador `!`
+        -   `!true === false`
+        -   `!false === true`
